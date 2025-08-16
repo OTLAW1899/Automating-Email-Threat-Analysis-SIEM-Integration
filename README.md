@@ -55,7 +55,7 @@ SPLUNK_URL=https://yoursplunkserver:8088
 
 ## Scripts  
 
-### 1. **Phishing Email Simulation (`phishing_simulator.py`)**  
+### 1. **Phishing Email Simulation (`send_email.py`)**  
 - Sends **10 simulated phishing-style emails** (1 per minute)  
 - Useful for **training & testing** detection workflows  
 
@@ -66,7 +66,7 @@ SPLUNK_URL=https://yoursplunkserver:8088
 
 ---
 
-### 2. **Email Monitoring & Threat Analysis (`email_monitor.py`)**  
+### 2. **Email Monitoring & Threat Analysis (`main.py`)**  
 - Connects to Gmail via **IMAP**  
 - Monitors both **Inbox** and **Spam**  
 - Extracts links & attachments → scans with **VirusTotal**  
@@ -119,12 +119,12 @@ This setup is valuable for:
 
 4. Run phishing simulator (optional, for test data):  
    ```bash
-   python phishing_simulator.py
+   python send_email.py
    ```
 
 5. Start email monitoring & Splunk integration:  
    ```bash
-   python email_monitor.py
+   python main.py
    ```
 
 ---
