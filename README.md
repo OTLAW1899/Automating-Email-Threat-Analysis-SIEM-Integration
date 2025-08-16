@@ -30,8 +30,8 @@ The automation uses **Python** to:
 ## Project Structure  
 
 ```
-├── phishing_simulator.py    # Script to send simulated phishing emails
-├── email_monitor.py         # Script to monitor inbox, analyze threats, forward to Splunk
+├── send_email.py    # Script to send simulated phishing emails
+├── main.py         # Script to monitor inbox, analyze threats, forward to Splunk
 ├── .env.example             # Example environment variables
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project documentation
