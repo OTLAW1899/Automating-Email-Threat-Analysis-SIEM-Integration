@@ -129,7 +129,7 @@ This setup is valuable for:
 
 ---
 
-## Example Splunk Dashboard  
+## Splunk Dashboard  
 - **Incoming Email Logs**: Date, sender, subject, and body preview  
 - **Threat Indicators**: URLs flagged by VirusTotal  
 - **Attachment Analysis**: Malicious file detection stats  
