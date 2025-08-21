@@ -1,7 +1,7 @@
 
-# 🚀 Email Threat Analysis & SIEM Integration
+# Email Threat Analysis & SIEM Integration
 
-## 📌 Overview
+## Overview
 This project demonstrates a **cybersecurity automation pipeline** that monitors and analyzes emails from a Gmail mailbox. Email remains the **#1 attack vector**, so this system provides proactive defense by:
 
 - Automatically detecting malicious **links & attachments**
@@ -10,7 +10,7 @@ This project demonstrates a **cybersecurity automation pipeline** that monitors 
 
 ---
 
-## 🛠️ Components
+## Components
 
 ### 1. Email Access (Gmail IMAP)
 - Connects via **IMAP** (Inbox + Spam)
@@ -28,7 +28,7 @@ This project demonstrates a **cybersecurity automation pipeline** that monitors 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 
@@ -43,7 +43,7 @@ email-threat-automation/
 
 ---
 
-## ⚙️ Environment Configuration
+## Environment Configuration
 
 Sensitive credentials are stored in `.env`:
 
@@ -57,7 +57,7 @@ SPLUNK_URL=https://yoursplunkserver:8088
 
 ---
 
-## 📜 Scripts
+## Scripts
 
 ### 🔹 1. Phishing Email Simulation — `send_email.py`
 
@@ -87,7 +87,7 @@ The core pipeline retrieves, analyzes, and reports email threats.
 
 ---
 
-## 🖥️ Workflow Diagram
+## Workflow Diagram
 
 ```mermaid
 graph TD
@@ -101,7 +101,7 @@ graph TD
 
 ---
 
-## 🔒 Security & Operational Notes
+## Security & Operational Notes
 
 * Gmail: IMAP + App Passwords required
 * VirusTotal API → rate limits apply
@@ -110,7 +110,7 @@ graph TD
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 # 1. Clone the repository
@@ -142,7 +142,7 @@ python main.py
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 * AI/NLP-based phishing intent detection
 * Sandbox for dynamic attachment execution
@@ -152,7 +152,7 @@ python main.py
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 * **VirusTotal API** for threat intelligence
 * **Splunk HEC** for SIEM integration
@@ -160,7 +160,7 @@ python main.py
 
 ---
 
-## ✍️ Author
+## Author
 
 **Olatunji Lawal**
 *Cybersecurity Analyst*
