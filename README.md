@@ -134,7 +134,13 @@ This setup is valuable for:
 - **Threat Indicators**: URLs flagged by VirusTotal  
 - **Attachment Analysis**: Malicious file detection stats  
 - **Real-Time Alerts**: Automated correlation with other Splunk data sources  
-
+---
+## Future Enhancements
+AI/NLP-powered email intent analysis
+Sandbox for dynamic attachment execution
+YARA-based signature detection
+Multi-SIEM support (ELK, QRadar, Sentinel)
+Docker deployment for scalability
 ---
 
 ## Conclusion  
