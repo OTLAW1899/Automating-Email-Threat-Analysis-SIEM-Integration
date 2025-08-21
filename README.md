@@ -142,14 +142,18 @@ YARA-based signature detection
 Multi-SIEM support (ELK, QRadar, Sentinel)
 Docker deployment for scalability
 ---
-
 ## Conclusion  
 This project provides a **hands-on blueprint** for building an email security automation pipeline with **Python, VirusTotal, and Splunk**. It demonstrates how organizations can proactively defend against **email-borne cyber threats** through automation, structured analysis, and centralized SIEM monitoring.  
 
 ---
+Acknowledgments
+VirusTotal API
+Splunk HEC
+Streamlit
 
+---
 ## Author  
 **Olatunji Lawal**  
 *Cybersecurity Analyst*  
 
-📅 *15th August 2025*  
+📅 *15th August 2025* 
