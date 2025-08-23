@@ -43,7 +43,7 @@ email-threat-automation/
 
 ---
 
-## Environment Configuration
+### Environment Configuration
 
 Sensitive credentials are stored in `.env`:
 
@@ -57,7 +57,7 @@ SPLUNK_URL=https://yoursplunkserver:8088
 
 ---
 
-## Scripts
+### Scripts
 
 ### 🔹 1. Phishing Email Simulation — `send_email.py`
 
@@ -95,7 +95,7 @@ The core pipeline retrieves, analyzes, and reports email threats.
 
 ---
 
-## Workflow Diagram
+### Workflow Diagram
 
 ```mermaid
 graph TD
