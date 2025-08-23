@@ -12,16 +12,16 @@ This project demonstrates a **cybersecurity automation pipeline** that monitors 
 
 ### Components
 
-### 1. Email Access (Gmail IMAP)
+#### 1. Email Access (Gmail IMAP)
 - Connects via **IMAP** (Inbox + Spam)
 - Requires Gmail IMAP enabled
 - Authentication with **Google App Passwords** (not the main password)
 
-### 2. Threat Intelligence (VirusTotal)
+#### 2. Threat Intelligence (VirusTotal)
 - Extracted **URLs & file attachments** are scanned using the **VirusTotal API**
 - Supports hash-based and behavioral detection
 
-### 3. SIEM Integration (Splunk HEC)
+#### 3. SIEM Integration (Splunk HEC)
 - Events sent to **Splunk HTTP Event Collector (HEC)** securely
 - Configurable endpoint, token, and port (`8088` by default)
 - Enables centralized logging, dashboards, and correlation
@@ -59,7 +59,7 @@ SPLUNK_URL=https://yoursplunkserver:8088
 
 ### Scripts
 
-### 🔹 1. Phishing Email Simulation — `send_email.py`
+#### 🔹 1. Phishing Email Simulation — `send_email.py`
 
 Generates **10 safe, simulated phishing emails** (1 per minute) for testing & training.
 
@@ -73,7 +73,7 @@ Generates **10 safe, simulated phishing emails** (1 per minute) for testing & tr
 
 ---
 
-### 🔹 2. Email Monitoring & Threat Analysis — `main.py`
+#### 🔹 2. Email Monitoring & Threat Analysis — `main.py`
 
 The core pipeline retrieves, analyzes, and reports email threats.
 
@@ -118,7 +118,7 @@ graph TD
 
 ---
 
-## Installation
+### Installation
 
 ```bash
 # 1. Clone the repository
@@ -141,7 +141,7 @@ python main.py
 
 ---
 
-## ✅ Use Cases
+### ✅ Application
 
 * Security Awareness Training
 * SIEM Integration Testing
@@ -150,7 +150,7 @@ python main.py
 
 ---
 
-## Future Enhancements
+### Future Enhancements
 
 * AI/NLP-based phishing intent detection
 * Sandbox for dynamic attachment execution
@@ -160,7 +160,7 @@ python main.py
 
 ---
 
-## Acknowledgments
+### Acknowledgments
 
 * **VirusTotal API** for threat intelligence
 * **Splunk HEC** for SIEM integration
@@ -168,7 +168,7 @@ python main.py
 
 ---
 
-## Author
+### Author
 
 **Olatunji Lawal**
 *Cybersecurity Analyst*
