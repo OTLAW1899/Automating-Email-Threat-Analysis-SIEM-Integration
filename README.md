@@ -69,7 +69,7 @@ Generates **10 safe, simulated phishing emails** (1 per minute) for testing & tr
 * Gmail SMTP auth with App Passwords
 * Configurable sender & recipient
 
-https://github.com/OTLAW1899/Automating-Email-Threat-Analysis-SIEM-Integration/commit/bb27aeb56df4876106571aa8dde820046485f5d0
+<img width="960" height="461" alt="main py picture" src="https://github.com/user-attachments/assets/096b98ca-efc1-43d9-b73e-ccf53d79246e" />
 
 ---
 
