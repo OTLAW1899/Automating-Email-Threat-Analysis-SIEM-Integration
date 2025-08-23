@@ -1,5 +1,5 @@
 
-# Email Threat Analysis & SIEM Integration
+## Automated Email Analysis & SIEM Integration
 
 ### Overview
 This project demonstrates a **cybersecurity automation pipeline** that monitors and analyzes emails from a Gmail mailbox. Email remains the **#1 attack vector**, so this system provides proactive defense by:
