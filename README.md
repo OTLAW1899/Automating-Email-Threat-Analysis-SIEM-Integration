@@ -109,7 +109,7 @@ graph TD
 
 ---
 
-## Security & Operational Notes
+### Security & Operational Notes
 
 * Gmail: IMAP + App Passwords required
 * VirusTotal API → rate limits apply
