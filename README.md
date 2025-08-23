@@ -87,6 +87,12 @@ The core pipeline retrieves, analyzes, and reports email threats.
 6. Send structured JSON results to Splunk via HEC
 7. Repeat every **4 minutes**
 
+   <img width="959" height="366" alt="splunk output" src="https://github.com/user-attachments/assets/7b5b3eb8-e82a-4bf8-905d-73b03ec21fa5" />
+
+   <img width="956" height="384" alt="splunk output PNG2" src="https://github.com/user-attachments/assets/d5eb3a6c-cc82-4326-b4a8-df8d0ad9f87e" />
+
+
+
 ---
 
 ## Workflow Diagram
